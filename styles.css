@@ -1,0 +1,71 @@
+
+* {
+    font-family: Calibri, sans-serif;
+}
+
+p {
+    font-size: medium;
+}
+
+body {
+    background: -webkit-linear-gradient(90deg, #005aa7 10%, #FFFDE4 90%);
+    background:    -moz-linear-gradient(90deg, #005aa7 10%, #FFFDE4 90%);
+    background:     -ms-linear-gradient(90deg, #005aa7 10%, #FFFDE4 90%);
+    background:      -o-linear-gradient(90deg, #005aa7 10%, #FFFDE4 90%);
+    background:         linear-gradient(90deg, #005aa7 10%, #FFFDE4 90%);
+    padding-bottom: 15px;
+
+}
+
+.subHeading {
+    text-align: center;
+    background-color: bisque;
+}
+
+#container {
+    border: solid 1px #005aa7;
+    width: 800px;
+    margin: auto;
+    /*padding: 5px 15px;*/
+    background-color: #FFFDE4;
+    border-radius: 25px;
+}
+
+#header {
+    text-align: center;
+    background-color: bisque;
+}
+
+#introduction {
+    padding: 5px 30px;
+}
+
+#buttons {
+    text-align: center;
+}
+
+button {
+    background-color: #005aa7;
+    color: bisque;
+    width: 100px;
+    height: 40px;
+    border: 1px solid;
+    font-size: 12px;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #FFFDE4;
+    color: #005aa7;
+
+}
+
+#descriptions {
+    padding: 5px 30px 5px 30px;
+}
+
+#gameDisplay {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}

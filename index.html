@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" type="text/css" media="all" href="noStyles.css" id="theme">
+
+    <title>Home</title>
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <h1>Steve McLoughlin</h1>
+            <h2>Web Developer</h2>
+        </div>
+        <div id="introduction">
+            <p>Welcome to this project site that I have created to demonstrate my ability to use core web technologies <strong>HTML</strong>, <strong>CSS</strong> and <strong>Javascript</strong></p>
+
+            <p>I have created a single page that will change dynamically as the buttons below are pressed. Each version of the page demonstrates how each technology affects the experience for the end user from an HTML only, static site to a more visually appealing site using CSS and then some interaction using Javascript.</p>
+
+            <p>The whole site is itended to demonstrate how these technologies feature in the development of a web site with the inclusion of the following:</p>
+
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+                <li>DOM Manipulation</li>
+            </ul>
+
+            <p>Use the buttons below to switch between the various versions of this page:</p>
+
+            <div id="buttons">
+                <button id="HTML">HTML</button>
+                <button id="CSS">CSS</button>
+                <button id="Javascript">Javascript</button>
+            </div>
+        </div>
+
+        <div id="descriptions">
+            <div id="html_description">
+                <h2 class="subHeading">HTML</h2>
+                <p>The HTML page is plain</p>
+            </div>
+
+            <div id="css_description" style="display: none;">
+                <h2 class="subHeading">CSS</h2>
+                <p>The CSS version of the page is beautiful!</p>
+            </div>
+
+            <div id="js_description" style="display: none;">
+                <h2 class="subHeading">Javascript</h2>
+                <p>The Javascript page adds functionailty to the website!</p>
+
+                <h2>The Guessing Game</h2>
+                <p>The guessing game uses a binary search algorithm to find matching data by reducing the range of options by half each time it performs a comparison.</p>
+
+                <p>Think of a number between <span id="min">1</span> and <span id="max">100</span> then press <button id="startGame">Start</button><br></p>
+
+                <div id="gameDisplay">
+                    <div id="guessDisplay" style="display: none;">
+                        <p>Is your number greater than <strong><span id="guess">n/a</span></strong>?</p>
+                        <button id="yes">Yes</button>
+                        <button id="no">No</button>
+                        <button id="same">Same</button>
+                    </div>
+
+                    <div id="match" style="display: none;">
+                        <p>Your number is <strong><span id="finalNum"></span></strong>! I guessed your number in <span id="guessCount"></span> attempts! Press <em>Start</em> for another go</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
